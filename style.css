@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid green; */
+}
+
+body {
+    margin: auto;
+    height: 1196px;
+    width: 2480px;
+}
+
+@font-face {
+    font-family: muli;
+    src: url("muli/Muli.ttf");
+    }
+
+section {
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+article {
+    width: 700px;
+    height: 1150px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star {
+    width: 230px;
+    font-family: muli;
+    font-size: 2em;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.item {
+    font-family: muli;
+    font-size: 2.2em;
+}
+
+.details {
+    font-family: muli;
+    font-size: 1.8em;
+    color: gray;
+}
+
+.button {
+    margin: 15px;
+    padding: 8px 45px;
+    text-align: center;
+    display: inline-block;
+    font-family: muli;
+    font-weight: bolder;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  .button1 {
+      background-color: black;
+      color: white;
+      border: 5px solid black;
+  }
+
+  .button2 {
+      background-color: white;
+      border: 5px solid black;
+  }
